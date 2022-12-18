@@ -49,12 +49,12 @@ body {
     border-radius: 10px;
 }
 
-.turn .square,
+.turn ,
 .winner .square {
     width: 70px;
     height: 70px;
     pointer-events: none;
-/*     border-color: transparent; */
+    border-color: transparent;
 }
 
 .turn .square span.x::before,
@@ -63,9 +63,9 @@ body {
     transition: 0.2s;
 }
 
-.turn .square span.o {
+.turn span.o {
     transition: 0.2s;
-    border:4px solid black;
+  border-color: #222;
 }
 
 .turn::after {
@@ -132,4 +132,7 @@ body {
     border-radius: 10px;
     display: flex;
     gap: 15px;
+}
+.square{
+    border:4px solid black;
 }
