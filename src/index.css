@@ -54,7 +54,7 @@ body {
     width: 70px;
     height: 70px;
     pointer-events: none;
-    border-color: black;
+    border-color: transparent;
 }
 
 .turn .square span.x::before,
@@ -65,7 +65,7 @@ body {
 
 .turn .square span.o {
     transition: 0.2s;
-    border-color: black;
+    border-color: #222;
 }
 
 .turn::after {
