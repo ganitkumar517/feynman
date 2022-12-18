@@ -133,3 +133,6 @@ body {
     display: flex;
     gap: 15px;
 }
+.square{
+border:2px solid black;
+}
