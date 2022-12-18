@@ -15,15 +15,15 @@ body {
     text-align: center;
 }
 .tic-tac-toe h1 {
-    color: #eee;
+    color: black;
 }
 
 .tic-tac-toe button {
     padding: 8px 12px;
     margin: 25px;
     background: transparent;
-    border: 2px solid #eee;
-    color: #eee;
+    border: 2px solid black;
+    color: black;
     width: 100px;
     border-radius: 5px;
     transition: 0.2s;
@@ -65,7 +65,7 @@ body {
 
 .turn .square span.o {
     transition: 0.2s;
-    border-color: #222;
+    border-color: black;
 }
 
 .turn::after {
